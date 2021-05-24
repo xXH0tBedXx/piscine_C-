@@ -75,9 +75,9 @@ Console.ResetColor();
 Console.WriteLine(":\n{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|", cap[0], cap[1], cap[2], cap[3], cap[4]);
 Console.WriteLine("--------------------|--------------------|--------------------|--------------------|--------------------|");
 data = new DateTime(2021, 5, 1);
+//data = DateTime.Now;
 sum = cpSum;
 annuityPayment = (sum * i * Math.Pow((1 + i), term)) / (Math.Pow((1 + i), term) - 1);
-//data = DateTime.Now;
 for (int counter2 = 0; counter2 < term; counter2++)
 {
     if (counter2 == selectedMonth)
@@ -111,9 +111,10 @@ for (int counter2 = 0; counter2 < term; counter2++)
     }
     Console.WriteLine("--------------------|--------------------|--------------------|--------------------|--------------------|");
 }
+overpayingWithDecreasePayment = overpayingWithDecreasePayment - cpSum + sum;
 Console.Write("Фактическая переплата: ");
 Console.ForegroundColor = ConsoleColor.DarkRed;
-Console.Write("{0:F2}p.\n", overpayingWithDecreasePayment - cpSum + sum);
+Console.Write("{0:F2}p.\n", overpayingWithDecreasePayment);
 Console.ResetColor();
 Console.Write("\nтаблица погашения вашего кредита c ");
 Console.ForegroundColor = ConsoleColor.DarkRed;
@@ -122,9 +123,9 @@ Console.ResetColor();
 Console.WriteLine(":\n{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|", cap[0], cap[1], cap[2], cap[3], cap[4]);
 Console.WriteLine("--------------------|--------------------|--------------------|--------------------|--------------------|");
 data = new DateTime(2021, 5, 1);
+//data = DateTime.Now;
 sum = cpSum;
 annuityPayment = (sum * i * Math.Pow((1 + i), term)) / (Math.Pow((1 + i), term) - 1);
-//data = DateTime.Now;
 for (int counter2 = term; counter2 > 0; counter2--)
 {
     if (counter2 == selectedMonth)
@@ -158,19 +159,18 @@ for (int counter2 = term; counter2 > 0; counter2--)
     }
     Console.WriteLine("--------------------|--------------------|--------------------|--------------------|--------------------|");
 }
+overpayingWithReductionTerms = overpayingWithReductionTerms - cpSum + sum;
 Console.Write("Фактическая переплата: ");
 Console.ForegroundColor = ConsoleColor.DarkRed;
-Console.Write("{0:F2}p.\n", overpayingWithReductionTerms - cpSum + sum);
+Console.Write("{0:F2}p.\n", overpayingWithReductionTerms);
 Console.ResetColor();
-
-
 Console.ForegroundColor = ConsoleColor.DarkRed;
 if (overpayingWithReductionTerms > overpayingWithDecreasePayment)
     Console.WriteLine("Уменьшение платежа выгоднее уменьшения срока на {0:F2}p.", overpayingWithReductionTerms - overpayingWithDecreasePayment);
 else if (overpayingWithReductionTerms == overpayingWithDecreasePayment)
     Console.WriteLine("Переплата одинакова в обоих вариантах.");
 else
-    Console.WriteLine("Уменьшение срока выгоднее уменьшения платежа на {0:F2}p.",overpayingWithDecreasePayment - overpayingWithReductionTerms);
+    Console.WriteLine("Уменьшение срока выгоднее уменьшения платежа на {0:F2}p.", overpayingWithDecreasePayment - overpayingWithReductionTerms);
 Console.ResetColor();
 
 static void wrong_input()
