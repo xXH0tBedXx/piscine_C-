@@ -1,0 +1,15 @@
+/Users/tasian/piscine_C-/day00/ex01/bin/Debug/net5.0/ex01.deps.json
+/Users/tasian/piscine_C-/day00/ex01/bin/Debug/net5.0/ex01.runtimeconfig.json
+/Users/tasian/piscine_C-/day00/ex01/bin/Debug/net5.0/ex01.runtimeconfig.dev.json
+/Users/tasian/piscine_C-/day00/ex01/bin/Debug/net5.0/ex01.dll
+/Users/tasian/piscine_C-/day00/ex01/bin/Debug/net5.0/ref/ex01.dll
+/Users/tasian/piscine_C-/day00/ex01/bin/Debug/net5.0/ex01.pdb
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ex01.csprojAssemblyReference.cache
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ex01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ex01.AssemblyInfoInputs.cache
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ex01.AssemblyInfo.cs
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ex01.csproj.CoreCompileInputs.cache
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ex01.dll
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ref/ex01.dll
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ex01.pdb
+/Users/tasian/piscine_C-/day00/ex01/obj/Debug/net5.0/ex01.genruntimeconfig.cache
