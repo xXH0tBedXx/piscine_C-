@@ -10,7 +10,7 @@ try
     foreach (string dictName in dictNames)
     {
         if (dictName.CompareTo(name) == 0)
-            Console.WriteLine($"Hello {name}");
+            Console.WriteLine($"Hello, {name}!");
         else if (LevenshteinDistance(name, dictName) < 3)
         {
             Console.Write("\ndid you mean: " + dictName + (" ? Y/N\n your answer: "));
@@ -27,7 +27,7 @@ try
             }
             if (key.KeyChar == 'Y' || key.KeyChar == 'y')
             {
-                Console.WriteLine($"\nHello {dictName}");
+                Console.WriteLine($"\nHello, {dictName}!");
                 sign = false;
                 break;
             }
