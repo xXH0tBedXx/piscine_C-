@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/tasian/.dotnet/store/|arch|/|tfm|",
+      "/Users/tasian/.nuget/packages"
+    ]
+  }
+}
