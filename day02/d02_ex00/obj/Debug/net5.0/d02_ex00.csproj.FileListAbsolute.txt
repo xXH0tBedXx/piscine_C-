@@ -1,0 +1,15 @@
+/Users/tasian/piscine_C-/day02/d02_ex00/bin/Debug/net5.0/d02_ex00.deps.json
+/Users/tasian/piscine_C-/day02/d02_ex00/bin/Debug/net5.0/d02_ex00.runtimeconfig.json
+/Users/tasian/piscine_C-/day02/d02_ex00/bin/Debug/net5.0/d02_ex00.runtimeconfig.dev.json
+/Users/tasian/piscine_C-/day02/d02_ex00/bin/Debug/net5.0/d02_ex00.dll
+/Users/tasian/piscine_C-/day02/d02_ex00/bin/Debug/net5.0/ref/d02_ex00.dll
+/Users/tasian/piscine_C-/day02/d02_ex00/bin/Debug/net5.0/d02_ex00.pdb
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/d02_ex00.csprojAssemblyReference.cache
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/d02_ex00.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/d02_ex00.AssemblyInfoInputs.cache
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/d02_ex00.AssemblyInfo.cs
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/d02_ex00.csproj.CoreCompileInputs.cache
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/d02_ex00.dll
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/ref/d02_ex00.dll
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/d02_ex00.pdb
+/Users/tasian/piscine_C-/day02/d02_ex00/obj/Debug/net5.0/d02_ex00.genruntimeconfig.cache

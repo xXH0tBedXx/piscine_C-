@@ -29,6 +29,7 @@ namespace d01_ex00
             if (!suc)
                 throw new Exception();
                 Exchanger exchg = new Exchanger();
+
                 rate = exchg.convert(sum[1], value, value1, value2, rate);
                 if (sum[1] == "RUB")
                     Console.WriteLine("Исходная сумма = {0:F2}\nСумма в EUR = {1:F2}\nСумма в USD = {2:F2}", Models.ExchangeRate.RUB, Models.ExchangeRate.EUR, Models.ExchangeRate.USD);

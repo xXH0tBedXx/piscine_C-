@@ -13,14 +13,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tasian/piscine_C-/day01/d01_ex00/d01_ex00.csproj",
-      "projectName": "d01_ex00",
-      "projectPath": "/Users/tasian/piscine_C-/day01/d01_ex00/d01_ex00.csproj",
+      "projectUniqueName": "/Users/tasian/piscine_C-/day02/d02_ex00/d02_ex00.csproj",
+      "projectName": "d02_ex00",
+      "projectPath": "/Users/tasian/piscine_C-/day02/d02_ex00/d02_ex00.csproj",
       "packagesPath": "/Users/tasian/.nuget/packages/",
-      "outputPath": "/Users/tasian/piscine_C-/day01/d01_ex00/obj/",
+      "outputPath": "/Users/tasian/piscine_C-/day02/d02_ex00/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tasian/.config/NuGet/NuGet.Config"
+        "/Users/tasian/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
